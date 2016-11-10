@@ -1,0 +1,28 @@
+.btn-medium{
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 1px solid grey;
+  color: grey;
+  font-weight: 300;
+  opacity: 0.65;
+  transition: all 0.2s ease;
+  /* who how type*/
+}
+
+.btn-medium:hover{
+  opacity: 1;
+  padding: 17px 32px;
+}
+
+.btn-twitter{
+  padding: 20px 30px ;
+  background-color: #ce5652;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-twitter:hover{
+  background-color: #893938;
+}

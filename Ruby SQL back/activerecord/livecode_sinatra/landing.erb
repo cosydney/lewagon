@@ -1,0 +1,9 @@
+<h1>We have <%= @restaurants.size %> restaurants</h1>
+
+<% @restaurants.each do |restaurant| %>
+<div>
+	<a href="restaurants/<%= restaurant.id %>">
+		<%= restaurant.name %>
+	</a>
+</div>
+<% end %>

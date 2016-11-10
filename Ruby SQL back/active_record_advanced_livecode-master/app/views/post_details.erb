@@ -1,0 +1,21 @@
+<h1><%= @post.name %> (<%= @post.votes %>)</h1>
+
+<a href="<%= @post.url %>" target="_blank">Take me there</a>
+<hr>
+
+<form action="/posts/<%= @post.id %>/delete" method="post">
+	<input type="submit" value="I dont like this entry" style="background-color: red;color: white;border: 1px solid black; padding: 15px">
+</form>
+
+<hr>
+
+<form action="/posts/<%= @post.id %>" method="post">
+	<input type="text" name="name" value="<%= @post.name %>">
+
+	<input type="submit" value="Update post">
+</form>
+
+<hr>
+<form action="/posts/<%= @post.id %>/upvote" method="post">
+	<input type="submit" value="Vote :D " style="background-color: purple;color: yellow;border: 1px solid orange; padding: 10px">
+</form>

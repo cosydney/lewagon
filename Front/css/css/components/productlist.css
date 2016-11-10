@@ -1,0 +1,44 @@
+.product{
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.product:hover {
+  background-color: grey;
+}
+
+.product-score{
+  flex: 0 0 50px;
+}
+
+
+.product-image{
+  flex: 0 0 150px;
+}
+
+
+.product-image img {
+  border-radius: 10px;
+}
+
+.product-info h3{
+  align-self: stretch;
+
+}
+
+.product-info{
+  flex: 1 0 auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-social{
+  flex: 0 0 auto;
+ }
+
+ .product-info.avatar{
+  position: absolute;
+  bottom: 10px;
+ }

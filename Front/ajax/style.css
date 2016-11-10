@@ -1,0 +1,16 @@
+body {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+#repos {
+  margin-top: 1em;
+}
+
+#username {
+  padding: 2px;
+  vertical-align: -1px;
+}

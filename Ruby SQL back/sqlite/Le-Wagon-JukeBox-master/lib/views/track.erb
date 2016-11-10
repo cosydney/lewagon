@@ -1,0 +1,28 @@
+<h2>Track <%= @track["track"] %></h2>
+
+
+<div>
+	Album: <%= @track["album"] %>
+</div>
+
+<div>
+	Artist: <%= @track["artist"] %>
+</div>
+
+<div>
+	Genre: <%= @track["genre"] %>
+</div>
+
+<div>
+	Composer: <%= @track["composer"] %>
+</div>
+
+<div>
+	Price: <%= @track["price"] %>
+</div>
+
+<div>
+	<iframe width="560" height="315" src="http://www.youtube.com/embed?listType=search&list=<%= @track["album"]+" "+@track["track"] %>" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<a href="/albums/<%= @track["album_id"] %>">Back to album</a>

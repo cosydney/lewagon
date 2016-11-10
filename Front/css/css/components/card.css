@@ -1,0 +1,43 @@
+.card{
+  position: relative;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),
+              url('http://unsplash.it/300X200?random');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  width: 300px;
+  height: 200px;
+}
+
+.card-user{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-category{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.card-information{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+/*.card-information h3{
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+
+.card-information p{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+*/

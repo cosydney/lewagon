@@ -1,0 +1,18 @@
+<h2>Posts (<%= @posts.size %>)</h2>
+
+<ul>
+<% @posts.each do |post| %>
+	<li>
+		<a href="posts/<%= post.id %>">
+			<%= post.name %>
+		</a>
+	</li>
+<% end %>
+</ul>
+
+
+<form action="/" method="post">
+	<input type="text" name="name" value="" placeholder="name">
+	<input type="text" name="url" value="" placeholder="url">
+	<input type="submit" value="Create post">
+</form>
